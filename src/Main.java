@@ -36,10 +36,12 @@ public class Main {
                 left = mid + 1;
             }
         }
-        return false; 
+        return false;
     }
 
     public static void main(String[] args) {
+        int[] numArray = new int[]{3, 6, 9, 10, 16, 23};
+        System.out.println(binarySearchRecursive(numArray, 16, 0, numArray.length - 1));
 
 
     }
